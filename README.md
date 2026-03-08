@@ -1,4 +1,4 @@
-👋 Olá, eu sou Marcio Mendes
+#👋 Olá, eu sou Marcio Mendes
 
 🎓 Estudante de Engenharia de Software  
 💻 Aprendendo programação e desenvolvimento de software  
