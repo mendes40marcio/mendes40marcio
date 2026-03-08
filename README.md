@@ -16,11 +16,11 @@
 ---
 ## 📊 Estatísticas do GitHub
 
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mendes40marcio&theme=github_dark)
+![Stats](https://github-readme-streak-stats.herokuapp.com/?user=mendes40marcio&theme=dark)
 
 ## 🧠 Linguagens mais usadas
 
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mendes40marcio&theme=github_dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mendes40marcio&layout=compact)
 
 ---
 
