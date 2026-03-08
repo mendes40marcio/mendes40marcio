@@ -1,4 +1,4 @@
-README.md 👋 Olá, eu sou Marcio Mendes
+👋 Olá, eu sou Marcio Mendes
 
 🎓 Estudante de Engenharia de Software  
 💻 Aprendendo programação e desenvolvimento de software  
@@ -14,16 +14,13 @@ README.md 👋 Olá, eu sou Marcio Mendes
 - Lógica de programação
 
 ---
-
 ## 📊 Estatísticas do GitHub
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mendes40marcio&show_icons=true&theme=dark)
-
----
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mendes40marcio&show_icons=true&theme=tokyonight)
 
 ## 🧠 Linguagens mais usadas
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mendes40marcio&layout=compact&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mendes40marcio&layout=compact&theme=tokyonight)
 
 ---
 
