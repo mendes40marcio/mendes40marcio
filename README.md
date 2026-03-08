@@ -16,11 +16,11 @@
 ---
 ## 📊 Estatísticas do GitHub
 
-![GitHub Stats](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=mendes40marcio&show_icons=true)
+![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mendes40marcio&theme=github_dark)
 
 ## 🧠 Linguagens mais usadas
 
-![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=mendes40marcio&layout=compact)
+![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mendes40marcio&theme=github_dark)
 
 ---
 
