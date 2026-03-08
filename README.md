@@ -20,7 +20,7 @@
 
 ## 🧠 Linguagens mais usadas
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mendes40marcio&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mendes40marcio&layout=compact&theme=dark)
 
 ---
 
