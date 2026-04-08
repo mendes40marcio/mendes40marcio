@@ -2,7 +2,7 @@
 
 # 👋 Olá, eu sou Márcio Mendes
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Estudante+de+Engenharia+de+Software;Aprendendo+Python+e+Automação;Operador+CNC+%7C+Bystronic+Xpert;Apaixonado+por+tecnologia+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00B4D8&center=true&vCenter=true&width=600&lines=Estudante+de+Engenharia+de+Software;Aprendendo+Python+e+Automacao;Operador+CNC+%7C+Bystronic+Xpert;Apaixonado+por+tecnologia+%F0%9F%9A%80" alt="Typing SVG" />
 
 <br/>
 
@@ -84,4 +84,3 @@
 ⭐ **Obrigado por visitar meu perfil!** ⭐
 
 </div>
-
