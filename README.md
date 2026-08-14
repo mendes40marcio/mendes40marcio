@@ -42,10 +42,14 @@
 
 ## 📂 Projetos em destaque
 
+## 📂 Projetos em destaque
+
 <div align="center">
 
 [![Fundamentos Python](https://github-readme-stats.vercel.app/api/pin/?username=mendes40marcio&repo=Fundamentos-Python&theme=tokyonight&hide_border=true)](https://github.com/mendes40marcio/Fundamentos-Python)
 [![Sistema Bancário](https://github-readme-stats.vercel.app/api/pin/?username=mendes40marcio&repo=dio-sistema-bancario-funcoes&theme=tokyonight&hide_border=true)](https://github.com/mendes40marcio/dio-sistema-bancario-funcoes)
+[![MARCIO.SYS](https://github-readme-stats.vercel.app/api/pin/?username=mendes40marcio&repo=Marcio.Sys&theme=tokyonight&hide_border=true)](https://github.com/mendes40marcio/Marcio.Sys)
+[![Little Lemon](https://github-readme-stats.vercel.app/api/pin/?username=mendes40marcio&repo=little-lemon-django&theme=tokyonight&hide_border=true)](https://github.com/mendes40marcio/little-lemon-django)
 
 </div>
 
