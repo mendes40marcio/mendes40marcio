@@ -1,0 +1,64 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chipFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#12283b"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="95" fill="url(#glow)"/>
+
+  <!-- Anel externo de circuito, girando -->
+  <g>
+    <circle cx="100" cy="100" r="82" fill="none" stroke="#00f0ff" stroke-width="1.2" stroke-dasharray="4 6" opacity="0.6"/>
+    <g stroke="#00f0ff" stroke-width="2" fill="#00f0ff">
+      <circle cx="100" cy="18" r="3"/>
+      <circle cx="182" cy="100" r="3"/>
+      <circle cx="100" cy="182" r="3"/>
+      <circle cx="18" cy="100" r="3"/>
+      <circle cx="158" cy="42" r="2.2"/>
+      <circle cx="158" cy="158" r="2.2"/>
+      <circle cx="42" cy="158" r="2.2"/>
+      <circle cx="42" cy="42" r="2.2"/>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="8s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Anel intermediário, girando no sentido oposto -->
+  <g>
+    <circle cx="100" cy="100" r="65" fill="none" stroke="#3ddc97" stroke-width="1" stroke-dasharray="2 8" opacity="0.5"/>
+    <animateTransform attributeName="transform" type="rotate" from="360 100 100" to="0 100 100" dur="12s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Chip central -->
+  <g>
+    <rect x="70" y="70" width="60" height="60" rx="6" fill="url(#chipFace)" stroke="#00f0ff" stroke-width="1.5"/>
+    <rect x="80" y="80" width="40" height="40" rx="3" fill="none" stroke="#00f0ff" stroke-width="1" opacity="0.7"/>
+    <circle cx="100" cy="100" r="6" fill="#00f0ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Pinos do chip -->
+    <g stroke="#00f0ff" stroke-width="2">
+      <line x1="70" y1="82" x2="58" y2="82"/>
+      <line x1="70" y1="100" x2="58" y2="100"/>
+      <line x1="70" y1="118" x2="58" y2="118"/>
+
+      <line x1="130" y1="82" x2="142" y2="82"/>
+      <line x1="130" y1="100" x2="142" y2="100"/>
+      <line x1="130" y1="118" x2="142" y2="118"/>
+
+      <line x1="82" y1="70" x2="82" y2="58"/>
+      <line x1="100" y1="70" x2="100" y2="58"/>
+      <line x1="118" y1="70" x2="118" y2="58"/>
+
+      <line x1="82" y1="130" x2="82" y2="142"/>
+      <line x1="100" y1="130" x2="100" y2="142"/>
+      <line x1="118" y1="130" x2="118" y2="142"/>
+    </g>
+  </g>
+</svg>
