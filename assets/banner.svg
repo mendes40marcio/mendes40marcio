@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05080f"/><stop offset=".55" stop-color="#0D1117"/><stop offset="1" stop-color="#04202b"/></linearGradient>
+<radialGradient id="halo" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#00B4D8" stop-opacity=".28"/><stop offset="1" stop-color="#00B4D8" stop-opacity="0"/></radialGradient>
+<linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00B4D8"/><stop offset=".5" stop-color="#E6F9FF"/><stop offset="1" stop-color="#00B4D8"/>
+<animate attributeName="x1" values="-1;1" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="5s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00B4D8" stop-opacity="0"/><stop offset=".5" stop-color="#00B4D8" stop-opacity=".35"/><stop offset="1" stop-color="#00B4D8" stop-opacity="0"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#00B4D8" stroke-opacity=".07"/></pattern>
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>
+.rain{font:14px 'Fira Code',Consolas,'DejaVu Sans Mono',monospace;fill:#00B4D8}
+.c{animation:fall linear infinite}
+@keyframes fall{from{transform:translateY(-320px)}to{transform:translateY(320px)}}
+.trace{fill:none;stroke:#00B4D8;stroke-width:1.6;stroke-opacity:.25}
+.pulse{fill:none;stroke:#7FE7FF;stroke-width:2.4;stroke-linecap:round;stroke-dasharray:18 600;animation:run 3.2s linear infinite}
+@keyframes run{from{stroke-dashoffset:618}to{stroke-dashoffset:0}}
+.node{fill:#0D1117;stroke:#00B4D8;stroke-width:2;animation:blink 2s ease-in-out infinite}
+@keyframes blink{50%{stroke-opacity:.25}}
+.nm{font:800 58px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;letter-spacing:6px}
+.sub{font:600 15px 'Fira Code',Consolas,'DejaVu Sans Mono',monospace;fill:#8bdcf0;letter-spacing:3px}
+.term{font:15px 'Fira Code',Consolas,'DejaVu Sans Mono',monospace;fill:#c9d1d9}
+.cur{animation:cur 1s steps(1) infinite}
+@keyframes cur{50%{opacity:0}}
+.sc{animation:sweep 6s ease-in-out infinite}
+@keyframes sweep{from{transform:translateX(-300px)}to{transform:translateX(1000px)}}
+.gear{transform-box:fill-box;transform-origin:center;animation:spin 12s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.typed{clip-path:inset(0 100% 0 0);animation:type 7s steps(46) infinite}
+@keyframes type{0%{clip-path:inset(0 100% 0 0)}55%,90%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 0 0 0)}}
+</style>
+<clipPath id="r"><rect width="1000" height="300" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+<rect width="1000" height="300" fill="url(#bg)"/>
+<rect width="1000" height="300" rx="14" fill="url(#grid)"/>
+<g class="rain" opacity=".22">
+<text class="c" x="30" style="animation-duration:7s"><tspan x="30" y="20">1</tspan><tspan x="30" dy="20">0</tspan><tspan x="30" dy="20">1</tspan><tspan x="30" dy="20">1</tspan><tspan x="30" dy="20">0</tspan><tspan x="30" dy="20">1</tspan><tspan x="30" dy="20">0</tspan></text>
+<text class="c" x="95" style="animation-duration:9s;animation-delay:-3s"><tspan x="95" y="20">0</tspan><tspan x="95" dy="20">1</tspan><tspan x="95" dy="20">0</tspan><tspan x="95" dy="20">0</tspan><tspan x="95" dy="20">1</tspan><tspan x="95" dy="20">1</tspan></text>
+<text class="c" x="160" style="animation-duration:6s;animation-delay:-1s"><tspan x="160" y="20">G</tspan><tspan x="160" dy="20">9</tspan><tspan x="160" dy="20">0</tspan><tspan x="160" dy="20">1</tspan><tspan x="160" dy="20">0</tspan></text>
+<text class="c" x="835" style="animation-duration:8s;animation-delay:-2s"><tspan x="835" y="20">1</tspan><tspan x="835" dy="20">1</tspan><tspan x="835" dy="20">0</tspan><tspan x="835" dy="20">1</tspan><tspan x="835" dy="20">0</tspan><tspan x="835" dy="20">0</tspan></text>
+<text class="c" x="900" style="animation-duration:6.5s;animation-delay:-4s"><tspan x="900" y="20">{</tspan><tspan x="900" dy="20">0</tspan><tspan x="900" dy="20">1</tspan><tspan x="900" dy="20">}</tspan><tspan x="900" dy="20">1</tspan></text>
+<text class="c" x="965" style="animation-duration:10s;animation-delay:-6s"><tspan x="965" y="20">0</tspan><tspan x="965" dy="20">1</tspan><tspan x="965" dy="20">1</tspan><tspan x="965" dy="20">0</tspan><tspan x="965" dy="20">1</tspan><tspan x="965" dy="20">0</tspan><tspan x="965" dy="20">1</tspan></text>
+</g>
+<path class="trace" d="M0 60H120L150 90H250"/><path class="pulse" d="M0 60H120L150 90H250"/>
+<path class="trace" d="M0 245H90L125 210H230"/><path class="pulse" style="animation-delay:-1.2s" d="M0 245H90L125 210H230"/>
+<path class="trace" d="M1000 70H880L850 100H750"/><path class="pulse" style="animation-delay:-2s" d="M1000 70H880L850 100H750"/>
+<path class="trace" d="M1000 235H900L870 205H770"/><path class="pulse" style="animation-delay:-.6s" d="M1000 235H900L870 205H770"/>
+<circle class="node" cx="250" cy="90" r="5"/><circle class="node" cx="230" cy="210" r="5" style="animation-delay:-.5s"/>
+<circle class="node" cx="750" cy="100" r="5" style="animation-delay:-1s"/><circle class="node" cx="770" cy="205" r="5" style="animation-delay:-1.5s"/>
+<g opacity=".18" fill="none" stroke="#00B4D8" stroke-width="3">
+<g class="gear"><circle cx="905" cy="150" r="26"/><circle cx="905" cy="150" r="9"/><path d="M905 114v12M905 174v12M869 150h12M929 150h12M880 125l8 8M922 167l8 8M930 125l-8 8M888 167l-8 8"/></g>
+<g class="gear" style="animation-direction:reverse"><circle cx="95" cy="150" r="26"/><circle cx="95" cy="150" r="9"/><path d="M95 114v12M95 174v12M59 150h12M119 150h12M70 125l8 8M112 167l8 8M120 125l-8 8M78 167l-8 8"/></g>
+</g>
+<ellipse cx="500" cy="125" rx="330" ry="110" fill="url(#halo)"/>
+<text x="500" y="48" text-anchor="middle" class="sub" opacity=".7">&lt;/&gt;  SOFTWARE ENGINEER EM CONSTRUÇÃO</text>
+<text x="500" y="128" text-anchor="middle" class="nm" fill="url(#name)" filter="url(#glow)">MÁRCIO MENDES</text>
+<text x="500" y="166" text-anchor="middle" class="sub">PYTHON · AUTOMAÇÃO · CNC · INDÚSTRIA 4.0 · IA</text>
+<g transform="translate(270 200)">
+<rect width="460" height="58" rx="8" fill="#010409" fill-opacity=".85" stroke="#00B4D8" stroke-opacity=".35"/>
+<circle cx="16" cy="13" r="4" fill="#ff5f56"/><circle cx="30" cy="13" r="4" fill="#ffbd2e"/><circle cx="44" cy="13" r="4" fill="#27c93f"/>
+<g class="typed"><text x="16" y="44" class="term"><tspan fill="#27c93f">$</tspan> python carreira.py --de fabrica --para codigo</text></g>
+<rect class="cur" x="446" y="31" width="8" height="17" fill="#00B4D8"/>
+</g>
+<g class="sc"><rect x="0" y="0" width="300" height="300" fill="url(#scan)" opacity=".35"/></g>
+</g>
+<rect x="1" y="1" width="998" height="298" rx="14" fill="none" stroke="#00B4D8" stroke-opacity=".35"/>
+<path d="M14 30V14H30M970 14h16v16M986 270v16h-16M30 286H14v-16" fill="none" stroke="#00B4D8" stroke-width="2.5"/>
+</svg>
