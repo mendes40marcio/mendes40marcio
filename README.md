@@ -1,9 +1,13 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/mendes40marcio/mendes40marcio/main/assets/banner.svg" width="100%" alt="Banner animado — Márcio Mendes"/>
+
+<br/>
+
 <table>
 <tr>
 <td width="130">
-  <img src="https://raw.githubusercontent.com/mendes40marcio/mendes40marcio/main/assets/chip-icon.svg" width="120" alt="chip animado"/>
+<img src="https://raw.githubusercontent.com/mendes40marcio/mendes40marcio/main/assets/chip-icon.svg" width="120" alt="chip animado"/>
 </td>
 <td align="left">
 
@@ -79,6 +83,26 @@
 
 </div>
 
+<div align="center">
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mendes40marcio&bg_color=0D1117&color=8bdcf0&line=00B4D8&point=E6F9FF&area=true&area_color=00B4D8&hide_border=true&title_color=00B4D8&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" alt="Gráfico de atividade"/>
+
+</div>
+
+---
+
+## 🐍 A cobrinha das contribuições
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mendes40marcio/mendes40marcio/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mendes40marcio/mendes40marcio/output/github-snake.svg" />
+  <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/mendes40marcio/mendes40marcio/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
 ---
 
 ## 📫 Entre em contato
@@ -95,5 +119,7 @@
 <div align="center">
 
 ⭐ **Obrigado por visitar meu perfil!** ⭐
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:03334a,100:00B4D8&height=120&section=footer" width="100%" alt="Rodapé em onda"/>
 
 </div>
