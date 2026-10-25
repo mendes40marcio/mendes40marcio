@@ -83,12 +83,6 @@
 
 </div>
 
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mendes40marcio&bg_color=0D1117&color=8bdcf0&line=00B4D8&point=E6F9FF&area=true&area_color=00B4D8&hide_border=true&title_color=00B4D8&custom_title=Atividade%20de%20contribui%C3%A7%C3%B5es" alt="Gráfico de atividade"/>
-
-</div>
-
 ---
 
 ## 🐍 A cobrinha das contribuições
